@@ -28,7 +28,7 @@ public class AvaliacaoProjetoLogica01 {
         System.out.println("Informe o número de hambúrgueres que se deseja fazer:");
         numHamburguer = teclado.nextInt();
         
-        quantQueijo = numHamburguer * 0.05;
+        quantQueijo = 2*(numHamburguer * 0.05);
         quantPresunto = numHamburguer * 0.05;
         quantHamburguer = numHamburguer * 0.1;
         
